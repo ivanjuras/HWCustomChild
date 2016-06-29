@@ -123,6 +123,16 @@ ul {
 ******************** CORE BB STYLES ********************
 *******************************************************/
 
+/********** BB rows **********/
+
+.row {
+	margin: 0 !important;
+}
+.fl-row-content-wrap {
+	padding-left: 1.5rem !important;
+	padding-right: 1.5rem !important;
+}
+
 
 /********** BB columns **********/
 
@@ -135,15 +145,10 @@ ul {
 	}
 }
 
-
-/********** BB rows **********/
-
-.row {
-	margin: 0 !important;
-}
-.fl-row-content-wrap {
-	padding-left: 1.5rem !important;
-	padding-right: 1.5rem !important;
+@media ( max-width: 768px ) {
+	.fl-col-small {
+		max-width: 100% !important;
+	}
 }
 
 
