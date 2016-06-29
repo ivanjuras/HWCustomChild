@@ -3,6 +3,7 @@
 add_action( 'wp_enqueue_scripts', 'hwc_enqueue_styles' );
 function hwc_enqueue_styles() {
 
+	/*
 	// Enqueue custom fonts
 	wp_enqueue_style(
 		'hwc-custom-fonts',
@@ -18,5 +19,5 @@ function hwc_enqueue_styles() {
 		array(),
 		null
 	);
-
+	*/
 }
