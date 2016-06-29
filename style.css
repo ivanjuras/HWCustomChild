@@ -1,0 +1,352 @@
+/*
+ Theme Name:   SF Pinch Custom Theme
+ Theme URI:    https://www.customerbloom.com
+ Description:  Custom child theme for SF Pinch
+ Author:       Ivan Juras
+ Author URI:   http://ivanjuras.com
+ Template:     headway
+ Version:      1.0.0
+ Text Domain:  hwc
+*/
+
+/*
+
+Orange:             #ff8500
+Darkblue:           #092c74
+Darkblue--darker:   #04163a
+Lightblue:          #05589c
+Lightblue footer:   #0039ae 
+Extralight blue:    #77d3ff
+Teal:               #8bcdeb
+Whiteblue:          #eff8ff
+
+*/
+
+
+
+
+/*------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+---------------------------------------- BEGIN CORE ----------------------------------------
+--------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------*/
+
+
+
+
+/*******************************************************
+******************** CORE UTILITIES ********************
+*******************************************************/
+
+.u-boldWeight {
+	font-weight: 700 !important;
+}
+
+.u-normalWeight {
+	font-weight: 400 !important;
+}
+
+.u-lightWeight {
+	font-weight: 300 !important;
+}
+
+
+
+/****************************************************
+******************** CORE STYLES ********************
+****************************************************/
+
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	height: 100%;
+}
+body {
+	padding: 0;
+	margin: 0;
+}
+
+strong {
+	font-weight: bold;
+}
+
+ul {
+	list-style: disc;
+}
+
+#whitewrap {
+	display: table;
+	width: 100%;
+	height: 100%;
+}
+
+.block,
+.block-type-content .hentry,
+.block-type-content div.entry-content {
+	margin: 0;
+	padding: 0;
+}
+
+.block-type-widget-area li.widget {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 0.3125rem 0.1875rem;
+}
+.block-type-widget-area li.widget ul {
+	padding: 0 1.5rem 1.5rem 1.5rem;
+}
+
+.MainContent,
+.MainContent--blog {
+	display: table-row;
+	height: 100%;
+}
+@media( max-width: 74rem ) {
+	.MainContent--blog .grid-container {
+		padding-left: 1.5rem !important;
+		padding-right: 1.5rem !important;
+	}	
+}
+
+:focus {
+	outline: 0;
+}
+
+
+
+/*******************************************************
+******************** CORE BB STYLES ********************
+*******************************************************/
+
+
+/********** BB columns **********/
+
+@media ( max-width: 568px ) {
+	.fl-col-group {
+		margin-bottom: 1.25rem !important;
+	}
+	.fl-col-group:last-of-type {
+		margin-bottom: 0 !important;
+	}
+}
+
+
+/********** BB rows **********/
+
+.fl-row-content-wrap {
+	padding-left: 1.5rem !important;
+	padding-right: 1.5rem !important;
+}
+
+
+
+/*********************************************************
+******************** CORE FONT STYLES ********************
+*********************************************************/
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 100%;
+}
+body, caption, th, td, input, textarea, select, option, legend, fieldset, h1, h2, h3, h4, h5, h6 {
+	font-size-adjust: 0.5;
+}
+em {
+	font-style: italic;
+}
+
+
+/********** Smaller phones **********/
+
+p {
+	margin-bottom: 1.6em;
+}
+
+p,
+li,
+blockquote {
+	font-size: 1rem;
+	line-height: 1.7em;
+}
+
+h1 {
+	font-size: 2rem;
+	line-height: 1.25em;
+}
+
+h2,
+.h1-smaller
+.h1-smaller h1,
+.h3-bigger,
+.h3-bigger h3 {
+	font-size: 1.625rem;
+	line-height: 1.15384615em;
+}
+
+h3 {
+	font-size: 1.375rem;
+	line-height: 1.13636364em;
+}
+
+h4 {
+	font-size: 1.125rem;
+	line-height: 1.11111111em;
+}
+
+
+/********** Bigger phones **********/
+
+@media ( min-width: 34rem ) {
+	p,
+	li,
+	blockquote {
+		font-size: 1rem;
+	}
+	
+	h1 {
+		font-size: 2rem;
+		line-height: 1.25em;
+	}
+	
+	h2,
+	.h1-smaller,
+	.h1-smaller h1,
+	.h3-bigger,
+	.h3-bigger h3 {
+		font-size: 1.625rem;
+		line-height: 1.15384615em;
+	}
+	
+	h3 {
+		font-size: 1.375rem;
+		line-height: 1.13636364em;
+	}
+	
+	h4 {
+		font-size: 1.125rem;
+		line-height: 1.11111111em;
+	}
+}
+
+
+/********** Tablets **********/
+
+@media  ( min-width: 48rem ) {
+	p,
+	li,
+	blockquote {
+		font-size: 1rem;
+	}
+	
+	h1 {
+		font-size: 2.5rem;
+		line-height: 1.125em;
+	}
+	
+	h2,
+	.h1-smaller,
+	.h1-smaller h1,
+	.h3-bigger,
+	.h3-bigger h3 {
+		font-size: 2rem;
+		line-height: 1.25em;
+	}
+	
+	h3 {
+		font-size: 1.5rem;
+		line-height: 1.25em;
+	}
+	
+	h4 {
+		font-size: 1.125rem;
+		line-height: 1.22222222em;
+	}
+}
+
+
+/********** Smaller desktops **********/
+
+@media  ( min-width: 62rem ) {
+	p,
+	li,
+	blockquote {
+		font-size: 1rem;
+	}
+	
+	h1 {
+		font-size: 3rem;
+		line-height: 1.05em;
+	}
+	
+	h2,
+	.h1-smaller,
+	.h1-smaller h1,
+	.h3-bigger,
+	.h3-bigger h3 {
+		font-size: 2.25rem;
+		line-height: 1.25em;
+	}
+	
+	h3 {
+		font-size: 1.75rem;
+		line-height: 1.25em;
+	}
+	
+	h4 {
+		font-size: 1.125rem;
+		line-height: 1.22222222em;
+	}
+}
+
+
+/********** Bigger desktops **********/
+
+@media  ( min-width: 75rem ) {
+	p,
+	li,
+	blockquote {
+		font-size: 1.125rem;
+	}
+	
+	h1 {
+		font-size: 3rem;
+		line-height: 1.05em;
+	}
+	
+	h2,
+	.h1-smaller,
+	.h1-smaller h1,
+	.h3-bigger,
+	.h3-bigger h3 {
+		font-size: 2.25rem;
+		line-height: 1.25em;
+	}
+	
+	h3 {
+		font-size: 1.75rem;
+		line-height: 1.25em;
+	}
+	
+	h4 {
+		font-size: 1.125rem;
+		line-height: 1.22222222em;
+	}
+}
+
+
+
+
+/*--------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------
+---------------------------------------- BEGIN GLOBAL ----------------------------------------
+----------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------*/
+
+
+
+
