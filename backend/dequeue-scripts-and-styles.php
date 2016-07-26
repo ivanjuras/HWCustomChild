@@ -10,6 +10,11 @@ function hwc_deregister_scripts() {
 	wp_dequeue_style( 'open-sans-css' );
 	wp_dequeue_style( 'font-awesome' );
 	wp_dequeue_style( 'headway-storefront-wooc' );
+
+	// Disable Mega Menu CSS
+	wp_dequeue_style( 'megamenu' );
+	wp_dequeue_style( 'megamenu-fontawesome' );
+	wp_dequeue_style( 'megamenu-genericons' );
 	
 	// Disable Yoast SEO bar on the front-end
 	if ( ! is_admin() ) {
