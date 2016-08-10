@@ -254,7 +254,11 @@ h2,
     line-height: 1.15384615em;
 }
 
-h3 {
+h3,
+.h2-smaller,
+.h2-smaller h2,
+.h4-bigger,
+.h4-bigger h4 {
     font-size: 1.375rem;
     line-height: 1.13636364em;
 }
@@ -288,7 +292,11 @@ h4 {
         line-height: 1.15384615em;
     }
     
-    h3 {
+    h3,
+    .h2-smaller,
+    .h2-smaller h2,
+    .h4-bigger,
+    .h4-bigger h4 {
         font-size: 1.375rem;
         line-height: 1.13636364em;
     }
@@ -323,7 +331,11 @@ h4 {
         line-height: 1.25em;
     }
     
-    h3 {
+    h3,
+    .h2-smaller,
+    .h2-smaller h2,
+    .h4-bigger,
+    .h4-bigger h4 {
         font-size: 1.5rem;
         line-height: 1.25em;
     }
@@ -358,7 +370,11 @@ h4 {
         line-height: 1.25em;
     }
     
-    h3 {
+    h3,
+    .h2-smaller,
+    .h2-smaller h2,
+    .h4-bigger,
+    .h4-bigger h4 {
         font-size: 1.75rem;
         line-height: 1.25em;
     }
@@ -392,12 +408,16 @@ h4 {
         font-size: 2.25rem;
         line-height: 1.25em;
     }
-	
-	.h2-bigger{
-		font-size: 3rem;	
-	}
     
-    h3 {
+    .h2-bigger{
+        font-size: 3rem;    
+    }
+    
+    h3,
+    .h2-smaller,
+    .h2-smaller h2,
+    .h4-bigger,
+    .h4-bigger h4 {
         font-size: 1.75rem;
         line-height: 1.25em;
     }
