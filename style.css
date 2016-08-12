@@ -1,11 +1,11 @@
 /*
- Theme Name:   Fuchs Audio
+ Theme Name:   Headway Custom Child Theme
  Theme URI:    https://www.customerbloom.com
- Description:  Custom child theme for SF Pinch
+ Description:  Custom child theme for Headway-powered sites
  Author:       Ivan Juras
  Author URI:   http://ivanjuras.com
  Template:     headway
- Version:      1.0.0
+ Version:      1.0.3
  Text Domain:  hwc
 */
 
@@ -438,6 +438,8 @@ h4 {
 ----------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------*/
 
-
+body {
+	font-family: 'Open Sans', sans-serif;
+}
 
 
