@@ -106,7 +106,7 @@ ul {
     list-style: disc;
 }
 
-a{
+a {
 	text-decoration: none !important;
 }
 
@@ -188,7 +188,7 @@ hr {
     }
 }
 
-@media ( max-width: 48rem ) {
+@media ( max-width: 64rem ) {
     .fl-col-small {
         max-width: 100% !important;
     }
