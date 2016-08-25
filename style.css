@@ -11,7 +11,7 @@
 
 /*
 
-Red:     
+Red:
 Tomato:
 
 */
@@ -47,7 +47,7 @@ Tomato:
 }
 
 .u-semiBoldWeight {
-    font-weight: 500 !important;
+    font-weight: 600 !important;
 }
 
 .u-boldWeight {
@@ -107,7 +107,16 @@ ul {
 }
 
 a{
-	text-decoration: none !important;	
+	text-decoration: none !important;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
 }
 
 :focus {
@@ -148,7 +157,7 @@ a{
     .BlogContent .grid-container {
         padding-left: 1.5rem !important;
         padding-right: 1.5rem !important;
-    }   
+    }
 }
 
 
@@ -282,12 +291,12 @@ h4 {
     blockquote {
         font-size: 1rem;
     }
-    
+
     h1 {
         font-size: 2rem;
         line-height: 1.25em;
     }
-    
+
     h2,
     .h1-smaller,
     .h1-smaller h1,
@@ -296,7 +305,7 @@ h4 {
         font-size: 1.625rem;
         line-height: 1.15384615em;
     }
-    
+
     h3,
     .h2-smaller,
     .h2-smaller h2,
@@ -305,7 +314,7 @@ h4 {
         font-size: 1.375rem;
         line-height: 1.13636364em;
     }
-    
+
     h4 {
         font-size: 1.125rem;
         line-height: 1.11111111em;
@@ -321,12 +330,12 @@ h4 {
     blockquote {
         font-size: 1rem;
     }
-    
+
     h1 {
         font-size: 2.5rem;
         line-height: 1.125em;
     }
-    
+
     h2,
     .h1-smaller,
     .h1-smaller h1,
@@ -335,7 +344,7 @@ h4 {
         font-size: 2rem;
         line-height: 1.25em;
     }
-    
+
     h3,
     .h2-smaller,
     .h2-smaller h2,
@@ -344,7 +353,7 @@ h4 {
         font-size: 1.5rem;
         line-height: 1.25em;
     }
-    
+
     h4 {
         font-size: 1.125rem;
         line-height: 1.22222222em;
@@ -360,12 +369,12 @@ h4 {
     blockquote {
         font-size: 1rem;
     }
-    
+
     h1 {
         font-size: 3rem;
         line-height: 1.05em;
     }
-    
+
     h2,
     .h1-smaller,
     .h1-smaller h1,
@@ -374,7 +383,7 @@ h4 {
         font-size: 2.25rem;
         line-height: 1.25em;
     }
-    
+
     h3,
     .h2-smaller,
     .h2-smaller h2,
@@ -383,7 +392,7 @@ h4 {
         font-size: 1.75rem;
         line-height: 1.25em;
     }
-    
+
     h4 {
         font-size: 1.125rem;
         line-height: 1.22222222em;
@@ -399,12 +408,12 @@ h4 {
     blockquote {
         font-size: 1.125rem;
     }
-    
+
     h1 {
         font-size: 3rem;
         line-height: 1.05em;
     }
-    
+
     h2,
     .h1-smaller,
     .h1-smaller h1,
@@ -413,11 +422,11 @@ h4 {
         font-size: 2.25rem;
         line-height: 1.25em;
     }
-    
+
     .h2-bigger{
-        font-size: 3rem;    
+        font-size: 3rem;
     }
-    
+
     h3,
     .h2-smaller,
     .h2-smaller h2,
@@ -426,7 +435,7 @@ h4 {
         font-size: 1.75rem;
         line-height: 1.25em;
     }
-    
+
     h4 {
         font-size: 1.125rem;
         line-height: 1.22222222em;
@@ -442,9 +451,3 @@ h4 {
 ---------------------------------------- BEGIN GLOBAL ----------------------------------------
 ----------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------*/
-
-body {
-	font-family: 'Open Sans', sans-serif;
-}
-
-
