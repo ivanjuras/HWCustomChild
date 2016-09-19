@@ -61,8 +61,8 @@ Tomato:
 
 /********** SPACING UTILITIES **********/
 
-.u-mMarginBottom {
-	margin-bottom: 2.5rem !important;
+.u-marginBottomM {
+	margin-bottom: 1.5rem !important;
 }
 
 .u-noMarginBottom {
